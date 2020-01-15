@@ -15,7 +15,6 @@ body{
   font-family: 'Century Gothic',sans-serif;
 }
 .box-img{
-  border-radius: 50%;
   width: 200px;
   height: 200px;
 }
@@ -53,7 +52,7 @@ ul{
 
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
+  and (max-device-width: 980px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
      header{
@@ -76,7 +75,7 @@ ul{
     }
 
     .box{
-      
+
         padding:5px;
         border-radius:5px;
     }
