@@ -50,3 +50,44 @@ ul{
 .box li a:hover{
   color: #b9b9b9;
 }
+
+@media screen and (max-width: 980px){
+
+   .header{
+    position: static;
+  }
+
+  .body{
+    max-width: 400px;
+  }
+
+
+}
+
+@media screen and (max-width: 769px) {
+
+  .body{
+    margin-bottom: 40px;
+    max-width: none;
+  }
+
+  .box-img{
+    height: 250px;
+    width: 300px;
+
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  .header{
+    position: static;
+  }
+
+  .box-img{
+    width: 100%;
+    height: auto;
+
+}
+
+
