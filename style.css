@@ -56,5 +56,15 @@ ul{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
+     .box{
+    position: static;
+  }
+
+    .box-img{
+    width: 100%;
+    height: auto;
+
+  }
+
 }
 
