@@ -51,7 +51,7 @@ ul{
 }
 
 @media only screen 
-  and (min-device-width: 414px) 
+  and (min-device-width: 436px) 
   and (max-device-width: 1366px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
