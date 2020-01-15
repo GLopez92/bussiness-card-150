@@ -56,13 +56,28 @@ ul{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
-     .box{
+     .header{
     position: static;
   }
 
+    body{
+        -webkit-text-size-adjust:none;
+        font-family:Helvetica, Arial, Verdana, sans-serif;
+        padding:5px;
+  }
+
+    .box{
+        clear:both!important;
+        display:block!important;
+        width:100%!important;
+        float:none!important;
+        margin:0!important;
+        padding:0!important;
+  }
+
     .box-img{
-    width: 100%;
-    height: auto;
+        max-width: 100%;
+        height: auto;
 
   }
 
