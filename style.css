@@ -56,30 +56,42 @@ ul{
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
-     .header{
+     .box{
     position: static;
-  }
-
+    }
+ 
     body{
         -webkit-text-size-adjust:none;
         font-family:Helvetica, Arial, Verdana, sans-serif;
         padding:5px;
-  }
+    }
 
-    .box{
+   div{
         clear:both!important;
         display:block!important;
         width:100%!important;
         float:none!important;
         margin:0!important;
         padding:0!important;
-  }
+    }
+
+    .box{
+        border:1px solid #ccc;
+        padding:5px;
+        border-radius:5px;
+    }
+    .box li{
+        margin:0!important;
+    }
+    .box li a{
+        display:block;
+    }
 
     .box-img{
         max-width: 100%;
         height: auto;
 
-  }
+    }
 
 }
 
