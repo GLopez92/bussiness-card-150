@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: url(https://bit.ly/2RlEo1E) no-repeat;
+  background: url(https://bit.ly/2RlEo1E);
   background-size: cover;
 }
 .box{
@@ -51,9 +51,9 @@ ul{
 }
 
 @media only screen 
-  and (min-device-width: 375px) 
+  and (min-device-width: 414px) 
   and (max-device-width: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 
      header{
     position: static;
