@@ -51,12 +51,10 @@ ul{
   color: #b9b9b9;
 }
 
-@media screen and (max-device-width: 480px){
-    body{
-        -webkit-text-size-adjust:none;
-        font-family:Helvetica, Arial, Verdana, sans-serif;
-        padding:5px;
-    }
-}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 
+}
 
