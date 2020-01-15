@@ -75,9 +75,9 @@ ul{
     }
 
     .box{
-
         padding:5px;
         border-radius:5px;
+        margin-bottom: 40px;
     }
     .box li{
         margin:0!important;
@@ -90,10 +90,6 @@ ul{
         max-width: 100%;
         height: auto;
 
-    }
-
-     footer{
-    position: static;
     }
 
 }
