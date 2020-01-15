@@ -51,43 +51,12 @@ ul{
   color: #b9b9b9;
 }
 
-@media screen and (max-width: 980px){
-
-   .header{
-    position: static;
-  }
-
-  .box{
-    max-width: 400px;
-  }
-
-
-}
-
-@media screen and (max-width: 769px) {
-
-  .box{
-    margin-bottom: 40px;
-    max-width: none;
-  }
-
-  .box-img{
-    height: 250px;
-    width: 300px;
-
-  }
-
-}
-
-@media screen and (max-width: 640px) {
-  .header{
-    position: static;
-  }
-
-  .box-img{
-    width: 100%;
-    height: auto;
-
+@media screen and (max-device-width: 480px){
+    body{
+        -webkit-text-size-adjust:none;
+        font-family:Helvetica, Arial, Verdana, sans-serif;
+        padding:5px;
+    }
 }
 
 
