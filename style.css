@@ -52,8 +52,8 @@ ul{
 
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 900px) 
-  and (-webkit-min-device-pixel-ratio: 4) { 
+  and (max-device-width: 1112px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
 
      header{
     position: static;
@@ -77,7 +77,6 @@ ul{
     .box{
         padding:5px;
         border-radius:5px;
-        margin-bottom: 40px;
     }
     .box li{
         margin:0!important;
