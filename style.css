@@ -17,6 +17,7 @@ body{
 .box-img{
   width: 200px;
   height: 200px;
+  border-radius: 50%;
 }
 .box h1{
   font-size: 40px;
@@ -51,8 +52,8 @@ ul{
 }
 
 @media only screen 
-  and (min-device-width: 436px) 
-  and (max-device-width: 1366px) 
+  and (min-device-width: 414px) 
+  and (max-device-width: 816px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
      header{
