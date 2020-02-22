@@ -54,17 +54,7 @@ ul{
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
- 
-    body{
-        -webkit-text-size-adjust:none;
-        font-family:Helvetica, Arial, Verdana, sans-serif;
-        padding:5px;
-    }
-
- 
-
+  and (-webkit-min-device-pixel-ratio: 3) {
 
 }
 
