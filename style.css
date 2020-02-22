@@ -17,6 +17,7 @@ body{
 .box-img{
   width: 200px;
   height: 200px;
+  border-radius: 50%;
 }
 .box h1{
   font-size: 40px;
@@ -86,8 +87,8 @@ ul{
     }
 
     .box-img{
-        max-width: 100%;
-        height: auto;
+        max-width: 50%;
+        height: 50%;
 
     }
 
