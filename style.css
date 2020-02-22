@@ -56,9 +56,6 @@ ul{
   and (max-device-width: 1366px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
-     header{
-    position: static;
-    }
  
     body{
         -webkit-text-size-adjust:none;
@@ -66,14 +63,7 @@ ul{
         padding:5px;
     }
 
-    div{
-        clear:both!important;
-        display:block!important;
-        width:100%!important;
-        float:none!important;
-        margin:0!important;
-        padding:0!important;
-    }
+ 
 
 
 }
